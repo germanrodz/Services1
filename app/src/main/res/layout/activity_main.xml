@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blovvme.services.MainActivity">
+
+
+  <Button
+      android:layout_weight="1"
+      android:onClick="startServices"
+      android:id="@+id/btnStartNormalService"
+      android:text="Start Service"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:text="Stop Services"
+        android:onClick="startServices"
+        android:id="@+id/btnStopNormalService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:text="Start Intent Service"
+        android:onClick="startServices"
+        android:id="@+id/btnStartIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:onClick="startServices"
+        android:text="Bind Service"
+        android:id="@+id/btnOnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:onClick="startServices"
+        android:text="Unbind Service"
+        android:id="@+id/btnUnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnSendBound"
+        android:onClick="startServices"
+        android:text="Pass an Integer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/etText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+  <TextView
+        android:layout_weight="1"
+        android:hint="Type a number before going to the next activity"
+        android:gravity="center"
+        android:text="Music"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:layout_weight="1"
+          android:id="@+id/btnStarSound"
+          android:onClick="startServices"
+          android:text="Start"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+      <Button
+          android:layout_weight="1"
+          android:id="@+id/btnStopSound"
+          android:onClick="startServices"
+          android:text="Stop"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+    </LinearLayout>
+      <Button
+          android:layout_weight="1"
+          android:text="Scheduler"
+          android:id="@+id/btnScheduleService"
+          android:onClick="startServices"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+
+</LinearLayout>
